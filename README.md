@@ -1,24 +1,13 @@
-# README
+# ReadMe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An e-commerce website for a cosmetic company specializing in natural products
+with special attention to activated charcoal.
 
-Things you may want to cover:
+Date of Start: 23 November 2017
 
-* Ruby version
+Primary Colors: Black, White and Gold.
 
-* System dependencies
+Fonts: 
 
-* Configuration
+Plugins:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
