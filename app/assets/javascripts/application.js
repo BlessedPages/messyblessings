@@ -12,4 +12,22 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require jquery3
 //= require_tree .
+
+//OPEN SIDE-MENU
+function openNav() {
+    document.getElementById("menu-navigation").style.width = "100%";
+}
+//CLOSE SIDE-MENU
+function closeNav() {
+    document.getElementById("menu-navigation").style.width = "0";
+}
+//OPEN SIDE-SOCIAL-MENU
+function openSocialNav() {
+  document.getElementById("menu-social").style.width = "100%";
+}
+//CLOSE SIDE-SOCIAL-MENU
+function  closeSocialNav() {
+  document.getElementById("menu-social").style.width = "0";
+}
