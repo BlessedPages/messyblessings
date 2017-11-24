@@ -9,7 +9,9 @@ Date of Start: 23 November 2017
 
 Primary Colors: Black, White and Gold.
 
-Fonts: 
+Fonts: Buttons + Footer     | Spectral SC
+       Menu Text and <p>    | Cormorant Garamond
+       Contact Form         | Tangerine
 
 Plugins:
 

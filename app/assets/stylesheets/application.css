@@ -13,22 +13,36 @@
  *= require_tree .
  *= require_self
  */
- 
+
+body, html {
+  height: 100%;
+}
+
 /***********************
 ****NAVIGATION MENUS****
 ***********************/
+nav {
+  font-family: Cormorant Garamond;
+}
 
 #menu-button {
   position: absolute;
-  top: 20px;
-  left:20px;
-  cursor: pointer;
+  top: 35px;
+  left: 35px;
+  font-size: 12px;
+  color: #fff;
 }
 
 #menu-social-button {
   position: absolute;
-  top:20px;
-  right:20px;
+  top: 35px;
+  right: 35px;
+  font-size: 12px;
+  color: #fff;
+}
+
+#menu-button:hover,
+#menu-social-button:hover {
   cursor: pointer;
 }
 
@@ -68,6 +82,8 @@
     color: #818181;
     display: block;
     transition: 0.3s;
+    position: relative;
+    top: 50px;
 }
 
 .social-sidenav a:hover,
@@ -75,16 +91,22 @@
     color: #f1f1f1;
 }
 
-.social-sidenav .closebtn,
+.social-sidenav .closebtn {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 36px;
+}
+
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
-    right: 25px;
+    top: 20px;
+    right: 30px;
     font-size: 36px;
-    margin-left: 50px;
 }
 
 @media screen and (max-height: 450px) {
+  .closebtn {padding-top: 15px;}
   .social-sidenav {padding-top: 15px;}
   .social-sidenav a {font-size: 18px;}
   .sidenav {padding-top: 15px;}
